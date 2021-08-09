@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ejabberd_tut"
+version = "0.1.0"
+description = ""
+authors = ["hamedSh <hamed.sheykhlu@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8.10"
+aioxmpp = "^0.12.2"
+
+[tool.poetry.dev-dependencies]
+attrs = "^21.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
